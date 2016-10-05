@@ -8,6 +8,7 @@ Standalone scripts should only require basic `bash` and `python`. Plugin scripts
 - `bulk-delete-components.py`.
 
    Deletes all components in a JIRA project based on the passed project key.
+
    ```
    ./bulk-delete-components.py -k <project_key> -u <jira_username>
    ```
@@ -15,9 +16,11 @@ Standalone scripts should only require basic `bash` and `python`. Plugin scripts
 - `bulk-import-components.py`.
 
    Reads a csv file with a list of components and import them in a JIRA project based on the passed project key.
+
    ```
    ./bulk-import-components.py -k <project_key> -u <jira_username> <csv_file>
    ```
+
    Note: the csv file must contain a single component per row
     
 ## Contributing
